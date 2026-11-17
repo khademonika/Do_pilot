@@ -17,7 +17,7 @@ const Dashboard = () => {
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
 
   {/* Tasks */}
-  <div className="h-[420px] overflow-hidden rounded-2xl border border-[#E5E5E5] bg-white p-5 shadow-sm">
+  <div className="h-105 overflow-hidden rounded-2xl border border-[#E5E5E5] bg-white p-5 shadow-sm">
     
     {/* Header */}
     <div className="mb-5 flex items-center justify-between">
@@ -34,7 +34,7 @@ const Dashboard = () => {
     </div>
 
     {/* Scroll only this list */}
-    <div className="h-[280px] space-y-3 overflow-y-auto pr-1">
+    <div className="h-70 space-y-3 overflow-y-auto pr-1">
       {dummydata.tasks.map((task, index) => (
         <div
           key={index}
@@ -64,7 +64,7 @@ const Dashboard = () => {
 
 
   {/* Emails */}
-  <div className="h-[420px] overflow-hidden rounded-2xl border border-[#E5E5E5] bg-white p-5 shadow-sm">
+  <div className="h-105 overflow-hidden rounded-2xl border border-[#E5E5E5] bg-white p-5 shadow-sm">
 
     <div className="mb-5 flex items-center justify-between">
       <div>
@@ -79,7 +79,7 @@ const Dashboard = () => {
       </div>
     </div>
 
-    <div className="h-[280px] space-y-3 overflow-y-auto pr-1">
+    <div className="h-70 space-y-3 overflow-y-auto pr-1">
       {dummydata.emails.map((email, index) => (
         <div
           key={index}
@@ -103,7 +103,7 @@ const Dashboard = () => {
 
 
   {/* Meetings */}
-  <div className="h-[420px] overflow-hidden rounded-2xl border border-[#E5E5E5] bg-white p-5 shadow-sm">
+  <div className="h-105 overflow-hidden rounded-2xl border border-[#E5E5E5] bg-white p-5 shadow-sm">
 
     <div className="mb-5 flex items-center justify-between">
       <div>
@@ -118,7 +118,7 @@ const Dashboard = () => {
       </div>
     </div>
 
-    <div className="h-[280px] space-y-3 overflow-y-auto pr-1">
+    <div className="h-70 space-y-3 overflow-y-auto pr-1">
       {dummydata.meetings.map((meeting, index) => (
         <div
           key={index}
